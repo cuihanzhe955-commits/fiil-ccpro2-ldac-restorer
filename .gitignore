@@ -1,0 +1,42 @@
+# Sensitive Keys & Credentials
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*secret*
+.env
+config.json
+master_secret.py
+keygen_*.py
+
+# Build outputs & Binaries (Should be published in GitHub Releases, not Git tree)
+build/
+bin/
+dist/
+target/
+*.apk
+*.aab
+*.exe
+*.zip
+*.tar.gz
+*.class
+*.dex
+*.obj
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE & OS caches
+.idea/
+.vscode/
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Runtime logs
+logs/
+*.log
